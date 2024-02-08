@@ -52,10 +52,13 @@ Loading the pretrained YOLOv8n model:
 model = YOLO('yolov8n.pt')
 ```
 
-Trainig process:
+Training process:
 ```
 results = model.train(data='/content/datasets/open-images-v7/dataset.yaml', epochs=20, imgsz = 640)
 ```
+
+Results:
+`/content/runs/detect/train`
 
 ## Installation and starting in Visual Studio Code
 
