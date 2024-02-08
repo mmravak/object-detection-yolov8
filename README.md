@@ -61,8 +61,10 @@ Results:
 `/content/runs/detect/train`
 
 ## Installation and starting in Visual Studio Code
+https://img.shields.io/badge/open-in-vscode-blue
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://vscode.dev/github/mmravak/object-detection-yolov8)
+[![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-VSCode-blue)](https://vscode.dev/github/mmravak/object-detection-yolov8)
+
 
 
 Install virtual enviroment in Terminal using command line:
