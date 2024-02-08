@@ -28,7 +28,7 @@ Install fiftyone library for downloading and analyzing the dataset:
 pip install fiftyone
 ```
 
-Importing `fiftyone.zoo` to get the Open Images v7 dataset:
+Import `fiftyone.zoo` to get the Open Images v7 dataset:
 ```
 import fiftyone as fo
 import fiftyone.zoo as foz
@@ -47,7 +47,7 @@ dataset = foz.load_zoo_dataset(name,
                                classes = ['Sheep', 'Owl'],
                                max_samples = 1000)
 ```
-Loading the pretrained YOLOv8n model:
+Load the pretrained YOLOv8n model:
 ```
 model = YOLO('yolov8n.pt')
 ```
@@ -79,11 +79,11 @@ Install packages from _requirements.txt_:
 ```
 pip install -r requirements.txt
 ```
-Loading the dataset:
+Load the dataset:
 ```
 python data.py
 ```
-Training the YOLOv8 model:
+Train the YOLOv8 model:
 ```
 python train.py
 ```
