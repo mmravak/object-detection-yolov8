@@ -59,7 +59,9 @@ results = model.train(data='/content/datasets/open-images-v7/dataset.yaml', epoc
 
 Results:
 [`/content/runs/detect/train`](https://github.com/mmravak/object-detection-yolov8/tree/main/runs/detect/train)
+Here you can see evaluation on some samples of validation set:
 
+![Image](https://github.com/mmravak/object-detection-yolov8/blob/main/runs/detect/train/val_batch0_pred.jpg?raw=true)
 ## Installation and starting in Visual Studio Code
 
 [![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-VSCode-blue)](https://vscode.dev/github/mmravak/object-detection-yolov8)
