@@ -83,7 +83,7 @@ Loading the dataset:
 ```
 python data.py
 ```
-Trainig the YOLOv8 model:
+Training the YOLOv8 model:
 ```
 python train.py
 ```
