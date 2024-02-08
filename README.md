@@ -58,7 +58,7 @@ results = model.train(data='/content/datasets/open-images-v7/dataset.yaml', epoc
 ```
 
 Results:
-`/content/runs/detect/train`
+[`/content/runs/detect/train`](https://github.com/mmravak/object-detection-yolov8/tree/main/runs/detect/train)
 
 ## Installation and starting in Visual Studio Code
 
