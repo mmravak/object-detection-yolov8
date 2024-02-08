@@ -38,7 +38,7 @@ Import the `YOLO` class that represents an implementation of the YOLO object det
 ```
 from ultralytics import YOLO
 ```
-Loading the Open Images dataset:
+Load the Open Images dataset:
 ```
 dataset = foz.load_zoo_dataset(name,
                                split = split,
