@@ -8,7 +8,7 @@ YOLOv8 is a variant of the YOLO (You Only Look Once) object detection model desi
 
 Develop and train a custom AI model that can accurately detect only two categories of objects (sheeps and owls) in an image using the YOLO8 framework.
 
-Dataset: https://docs.ultralytics.com/datasets/detect/open-images-v7/
+Open Images v7 Dataset: https://docs.ultralytics.com/datasets/detect/open-images-v7/
 
 ## Installation and starting in Colab
 
@@ -28,7 +28,7 @@ Install fiftyone library for downloading and analyzing the dataset:
 pip install fiftyone
 ```
 
-Importing `fiftyone.zoo` to get the Open Images v7 dataset:
+Import `fiftyone.zoo` to get the Open Images v7 dataset:
 ```
 import fiftyone as fo
 import fiftyone.zoo as foz
@@ -38,7 +38,7 @@ Import the `YOLO` class that represents an implementation of the YOLO object det
 ```
 from ultralytics import YOLO
 ```
-Loading the Open Images dataset:
+Load the Open Images v7 dataset:
 ```
 dataset = foz.load_zoo_dataset(name,
                                split = split,
@@ -47,7 +47,7 @@ dataset = foz.load_zoo_dataset(name,
                                classes = ['Sheep', 'Owl'],
                                max_samples = 1000)
 ```
-Loading the pretrained YOLOv8n model:
+Load the pretrained YOLOv8n model:
 ```
 model = YOLO('yolov8n.pt')
 ```
@@ -62,7 +62,7 @@ Results:
 
 ## Installation and starting in Visual Studio Code
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/organization/repository)
+[![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-VSCode-blue)](https://vscode.dev/github/mmravak/object-detection-yolov8)
 
 
 Install virtual enviroment in Terminal using command line:
@@ -79,11 +79,11 @@ Install packages from _requirements.txt_:
 ```
 pip install -r requirements.txt
 ```
-Loading the dataset:
+Load the dataset:
 ```
 python data.py
 ```
-Training the YOLOv8 model:
+Train the YOLOv8 model:
 ```
 python train.py
 ```
