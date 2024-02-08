@@ -7,4 +7,4 @@ model = YOLO('yolov8n.pt')
 model.info()
 
 # Train the model on the dataset for 20 epochs
-results = model.train(data='datasets\open-images-v7\dataset.yaml', epochs = 15, imgsz = 640)
+results = model.train(data='datasets\open-images-v7\dataset.yaml', epochs = 20, imgsz = 640)
