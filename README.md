@@ -62,7 +62,7 @@ Results:
 
 ## Installation and starting in Visual Studio Code
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/organization/repository)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://vscode.dev/github/mmravak/object-detection-yolov8)
 
 
 Install virtual enviroment in Terminal using command line:
