@@ -10,7 +10,7 @@ Develop and train a custom AI model that can accurately detect only two categori
 
 Dataset: [Open Images v7](https://docs.ultralytics.com/datasets/detect/open-images-v7/)
 
-## Installation and starting in Colab
+## Installation and running in Colab
 
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
@@ -66,7 +66,7 @@ Here you can see evaluation on some samples of validation set:
 
 The trained model is saved to file [`trained_yolov8.pt`](https://github.com/mmravak/object-detection-yolov8/blob/main/trained_yolov8n.pt)
 
-## Installation and starting in Visual Studio Code
+## Installation and running locally: Visual Studio Code
 
 [![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-VSCode-blue)](https://vscode.dev/github/mmravak/object-detection-yolov8)
 
