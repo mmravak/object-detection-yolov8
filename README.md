@@ -8,7 +8,7 @@ YOLOv8 is a variant of the YOLO (You Only Look Once) object detection model desi
 
 Develop and train a custom AI model that can accurately detect only two categories of objects (sheeps and owls) in an image using the YOLO8 framework.
 
-Open Images v7 Dataset: https://docs.ultralytics.com/datasets/detect/open-images-v7/
+Dataset: [Open Images v7](https://docs.ultralytics.com/datasets/detect/open-images-v7/)
 
 ## Installation and starting in Colab
 
