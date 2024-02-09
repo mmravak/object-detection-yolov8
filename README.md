@@ -99,7 +99,7 @@ python train.py
 - [Python](https://docs.python.org/3/)
 - [YOLOv8](https://docs.ultralytics.com/)
 - [FiftyOne](https://docs.voxel51.com/)
-- [Dataset YAML](https://docs.ultralytics.com/datasets/detect/open-images-v7/#dataset-yaml]
+- [Dataset YAML](https://docs.ultralytics.com/datasets/detect/open-images-v7/#dataset-yaml)
 
 ## License
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
