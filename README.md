@@ -10,6 +10,10 @@ Develop and train a custom AI model that can accurately detect only two categori
 
 Dataset: [Open Images v7](https://docs.ultralytics.com/datasets/detect/open-images-v7/)
 
+There are two ways to install and run the code:
+1. [Online using Google Colaboratory]
+2. [Locally using Visual Studio Code]
+
 ## Installation and running in Colab
 
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
