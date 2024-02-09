@@ -11,7 +11,7 @@ Develop and train a custom AI model that can accurately detect only two categori
 Dataset: [Open Images v7](https://docs.ultralytics.com/datasets/detect/open-images-v7/)
 
 There are two ways to install and run the code:
-1. [Online using Google Colaboratory]
+1. [Online using Google Colaboratory](https://github.com/mmravak/object-detection-yolov8/blob/main/README.md#installation-and-running-in-colab)
 2. [Locally using Visual Studio Code]
 
 ## Installation and running in Colab
