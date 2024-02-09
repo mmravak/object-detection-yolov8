@@ -63,6 +63,9 @@ Results:
 Here you can see evaluation on some samples of validation set:
 
 ![Image](https://github.com/mmravak/object-detection-yolov8/blob/main/runs/detect/train/val_batch0_pred.jpg)
+
+The trained model is saved to [trained_yolov8.pt](https://github.com/mmravak/object-detection-yolov8/blob/main/trained_yolov8n.pt).
+
 ## Installation and starting in Visual Studio Code
 
 [![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-VSCode-blue)](https://vscode.dev/github/mmravak/object-detection-yolov8)
