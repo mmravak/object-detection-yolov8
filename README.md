@@ -63,6 +63,7 @@ results = model.train(data='/content/datasets/open-images-v7/dataset.yaml', epoc
 
 Results:
 [`/content/runs/detect/train`](https://github.com/mmravak/object-detection-yolov8/tree/main/runs/detect/train)
+[Download link]('https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/mmravak/object-detection-yolov8/tree/main/runs/detect/train')
 
 Here you can see evaluation on some samples of validation set:
 
