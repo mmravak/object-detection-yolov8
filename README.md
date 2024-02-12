@@ -8,9 +8,13 @@ YOLOv8 is a variant of the YOLO (You Only Look Once) object detection model desi
 
 Develop and train a custom AI model that can accurately detect only two categories of objects (sheeps and owls) in an image using the YOLO8 framework.
 
-Open Images v7 Dataset: https://docs.ultralytics.com/datasets/detect/open-images-v7/
+Dataset: [Open Images v7](https://docs.ultralytics.com/datasets/detect/open-images-v7/)
 
-## Installation and starting in Colab
+Choose how to install and run the code:
+1. [Online using Google Colaboratory](https://github.com/mmravak/object-detection-yolov8/blob/main/README.md#installation-and-running-in-colab)
+2. [Locally using Visual Studio Code](https://github.com/mmravak/object-detection-yolov8/blob/main/README.md#installation-and-running-locally-visual-studio-code)
+
+## Installation and running in Colab
 
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
@@ -63,7 +67,10 @@ Results:
 Here you can see evaluation on some samples of validation set:
 
 ![Image](https://github.com/mmravak/object-detection-yolov8/blob/main/runs/detect/train/val_batch0_pred.jpg)
-## Installation and starting in Visual Studio Code
+
+The trained model is saved to file [`trained_yolov8.pt`](https://github.com/mmravak/object-detection-yolov8/blob/main/trained_yolov8n.pt)
+
+## Installation and running locally: Visual Studio Code
 
 [![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-VSCode-blue)](https://vscode.dev/github/mmravak/object-detection-yolov8)
 
@@ -93,10 +100,10 @@ python train.py
 
 ## Documentation
 
-- Python: https://docs.python.org/3/
-- YOLOv8: https://docs.ultralytics.com/
-- FiftyOne: https://docs.voxel51.com/
-- Dataset YAML: https://docs.ultralytics.com/datasets/detect/open-images-v7/#dataset-yaml
+- [Python](https://docs.python.org/3/)
+- [YOLOv8](https://docs.ultralytics.com/)
+- [FiftyOne](https://docs.voxel51.com/)
+- [Dataset YAML](https://docs.ultralytics.com/datasets/detect/open-images-v7/#dataset-yaml)
 
 ## License
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
